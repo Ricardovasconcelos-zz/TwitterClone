@@ -1,0 +1,4 @@
+#Fri Feb 08 16:42:35 GMT-03:00 2019
+base.0=D\:\\Biblioteca\\goweek\\curso-omnistack-mobile\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
