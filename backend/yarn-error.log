@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/node/bin:/opt/mongodb/bin:/home/ricardo/Android/Sdk/tools:/home/ricardo/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/ricardo/Development/TwitterClone/backend/package.json: Unexpected token < in JSON at position 151
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.16.4",
+      "mongoose": "^5.4.10",
+      "socket.io": "^2.2.0"
+    },
+    "devDependencies": {
+  <<<<<<< HEAD
+      "nodemon": "^1.19.1"
+  =======
+      "nodemon": "^1.18.9"
+  >>>>>>> 90f8c231bae37c1aa44925e47fce779d982e4554
+    },
+    "scripts": {
+      "start": "nodemon src/index.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
